@@ -319,20 +319,20 @@ ARM Macro Assembler    Page 5
               00000200 
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
-ork --depend=.\startup_mdr32f9qx.d -o.\startup_mdr32f9qx.o -I.\RTE\Device\MDR19
-86BE92 -I.\RTE\_Target_1 -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Inclu
-de -IC:\Keil_v5\ARM\PACK\Keil\MDR1986BExx\1.5\Config -IC:\Keil_v5\ARM\PACK\Keil
-\MDR1986BExx\1.5\Libraries\CMSIS\CM3\CoreSupport -IC:\Keil_v5\ARM\PACK\Keil\MDR
+ork --depend=.\objects\startup_mdr32f9qx.d -o.\objects\startup_mdr32f9qx.o -I.\
+RTE\Device\MDR1986BE92 -I.\RTE\_Target_1 -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\
+CMSIS\Core\Include -IC:\Keil_v5\ARM\PACK\Keil\MDR1986BExx\1.5\Config -IC:\Keil_
+v5\ARM\PACK\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM3\CoreSupport -IC:\Keil_v5\A
 
 
 
 ARM Macro Assembler    Page 6 
 
 
-1986BExx\1.5\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc --predefine="__EVA
-L SETA 1" --predefine="__UVISION_VERSION SETA 526" --predefine="_RTE_ SETA 1" -
--predefine="USE_MDR32F9Q2_Rev1 SETA 1" --list=.\startup_mdr32f9qx.lst RTE\Devic
-e\MDR1986BE92\startup_MDR32F9Qx.s
+RM\PACK\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc --
+predefine="__EVAL SETA 1" --predefine="__UVISION_VERSION SETA 526" --predefine=
+"_RTE_ SETA 1" --predefine="USE_MDR32F9Q2_Rev1 SETA 1" --list=.\listings\startu
+p_mdr32f9qx.lst RTE\Device\MDR1986BE92\startup_MDR32F9Qx.s
 
 
 
